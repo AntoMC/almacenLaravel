@@ -1,0 +1,170 @@
+body{
+	background:#444444;
+}
+.imagen-fondo{
+	background-image: url(../img/fondo-material.jpg);
+	background-size: 100%;
+	background-attachment:fixed;
+	/*background: linear-gradient(to right, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);*/
+	/*background: linear-gradient(to right, rgba(140,3,41,1) 0%, rgba(114,2,34,1) 44%, rgba(80,0,25,1) 100%);*/
+}
+.fondo-amc{
+	background: rgba(255,255,255,0.1);
+}
+.fondo-transp{
+	background: transparent;
+	color:#ffffff;
+}
+.fondo-modal-transp{
+	background: rgba(25,25,25,0.7);
+	color:#ffffff;
+		border: 2px #ffff00 solid;
+   border-radius: 8px;
+   font-size: 1.4em;
+}
+.fondo-window-transp{
+	background: rgba(255,255,255,0.7);
+	color:#ffffff;
+}
+
+.dropdown-amc{
+	background:#000000;
+	color: #ffffff;
+	font-family: "roboto"; 
+}
+aside > section > ul,
+aside > section > ul > li{
+	background: rgba(255,255,255,0.1);
+	font-family: "roboto"; 
+}
+
+aside > section > ul > li> a,
+aside > section > ul > li > a> i,
+aside > section > ul > li> ul> li> a,
+aside > section > ul > li> ul> li> a> i{
+color: #ffffff;	
+}
+
+aside > section > ul > li> a:hover,
+aside > section > ul > li> a:active,
+aside > section > ul > li> a:focus,
+aside > section > ul > li > a> i:hover,
+aside > section > ul > li> ul> li> a:hover,
+aside > section > ul > li> ul> li> a> i:hover{
+color: #11E72E;	
+
+}
+
+.cabecera-fija {
+		
+	color: white;
+	height:50px;
+	
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+.nav-fija {
+	left: 0;
+	top: 0px; 
+	position: fixed; 
+}
+
+
+.form-group .input-group>input{
+	background: transparent;
+	border: 2px #00aa88 solid;
+   border-radius: 8px;
+   color: #FFFF00;
+}
+.form-group .input-group>input:focus{
+	background: rgba(255,255,255,0.1);
+	border: 2px #00aa88 solid;
+   border-radius: 8px;
+   color: white;
+}
+/*estilos delos labels*/
+
+.form-group>label{
+	font-size: 1.4em;
+	color: #00aa33;	
+	stroke: 
+}
+
+.form-group>input{
+	background: transparent;
+	border: 1px #00aa88 solid;
+   border-radius: 8px;
+   color: #FFFF00;
+}
+.form-group>input:focus{
+	background: rgba(255,255,255,0.1);
+	border: 1px #00aa88 solid;
+   border-radius: 8px;
+   color: white;
+}
+
+.form-group>select{
+	background: transparent;
+	border: 1px #00aaff solid;
+   border-radius: 8px;
+   color: #FFFF00;
+}
+.form-group>select:focus{
+	background: rgba(255,255,255,0.1);
+	border: 1px #00aaff solid;
+   border-radius: 8px;
+   color: white;
+}
+	
+
+.texto-amc{
+	font-family: "quicksand";
+	font-size: 1.2em;
+	color: #EA0D50;	
+	background:rgba(0, 0, 0, 0.7);
+}
+.texto-amc-titulo{
+	font-size: 1.9em;
+	text-align: center;
+	color: #11E72E;
+}
+.posicion-contenido{
+	top:50px;
+	border-style: none;
+}
+
+/*estilo de la tablade detalles*/
+.filas>tr>td>input[type=number]{
+	background: transparent;
+	border-style: none;
+	font-size:1.2em;	
+}
+.form-group>input[disabled]{
+	background: transparent;
+	border: 1px #00aa88 solid;
+   border-radius: 4px;
+   color:#ffff00;
+   font-size: 1.2em;
+   font-family: 'roboto';
+}
+.centrar-texto{
+	text-align: center;
+	font-family: 'quicksand';
+	font-size: 1.9em;
+}
+
+/*fin estilo de la tablade detalles*/
+
+
+@font-face{
+    font-family: "roboto";
+    src: url(../fonts/Roboto-Light.ttf) format("truetype");
+}
+
+
+@font-face{
+    font-family: "quicksand";
+    src: url(../fonts/Quicksand-Light.ttf) format("truetype");
+}
